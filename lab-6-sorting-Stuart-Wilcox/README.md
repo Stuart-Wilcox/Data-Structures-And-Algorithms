@@ -35,7 +35,7 @@ A: Given large latency of operations and comparisons, the best choice would be M
 
 |Algorithm  |List Ops/Sort  |Comparison Ops/Sort  |Total Ops/Sort |
 
-|-----------|:-------------:|:-------------------:|:-------------:|
+|-----------|---------------|---------------------|---------------|
 
 |Selection  |29348          |23900                |53248          |
 
@@ -48,9 +48,7 @@ A: Given large latency of operations and comparisons, the best choice would be M
 
 <br/>
 
-###Question 
-
-4. 
+### Question 4. 
 ```
 Q: Overall, what is the worst sorting algorithm we have?
 A: The worst sorting algorithm we have is porbably Selection Sort. It is average case O(n^2) and had the worst performance on lists of size 40 or larger.
