@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="CENTER_LEFT" prefHeight="219.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.uwo.eng.se2205b.lab03.AutoComplete">
+   <children>
+      <Label text="Enter word or prefix:" />
+      <TextField fx:id="input" disable="true" maxWidth="1.7976931348623157E308" minWidth="50.0" />
+      <HBox>
+         <children>
+            <Label text="Results:" />
+            <Region maxWidth="1.7976931348623157E308" minHeight="5.0" minWidth="5.0" prefHeight="5.0" prefWidth="5.0" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets top="8.0" />
+               </HBox.margin>
+            </Region>
+            <Label fx:id="countLabel" text="29" />
+         </children>
+         <VBox.margin>
+            <Insets top="8.0" />
+         </VBox.margin>
+      </HBox>
+      <ListView fx:id="options" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="100.0" prefHeight="200.0" prefWidth="150.0" VBox.vgrow="ALWAYS" />
+      <HBox>
+         <children>
+            <Label text="Max:">
+               <padding>
+                  <Insets right="12.0" />
+               </padding>
+            </Label>
+            <Spinner fx:id="resultCounter" editable="true" maxWidth="1.7976931348623157E308" minWidth="50.0" prefWidth="100.0" HBox.hgrow="SOMETIMES">
+               <valueFactory>
+                  <SpinnerValueFactory.IntegerSpinnerValueFactory min="1" max="10"/>
+               </valueFactory>
+            </Spinner>
+            <Region maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="10.0" minWidth="5.0" prefHeight="10.0" prefWidth="5.0" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets top="8.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+   </padding>
+</VBox>
