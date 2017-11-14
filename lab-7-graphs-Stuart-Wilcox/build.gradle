@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0-M3'
+    }
+}
+
+group 'ca.uwo.eng.se2205'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.google.guava/guava
+    compile group: 'com.google.guava', name: 'guava', version: '21.0'
+
+    // https://mvnrepository.com/artifact/com.google.code.findbugs/findbugs
+    compile group: 'com.google.code.findbugs', name: 'annotations', version: '3.0.1'
+
+    // JUnit Jupiter API and TestEngine implementation
+	testCompile("org.junit.jupiter:junit-jupiter-api:5.0.0-M3")
+	testRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.0-M3")
+}
