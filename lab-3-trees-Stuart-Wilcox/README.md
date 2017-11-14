@@ -11,6 +11,7 @@ A: Have each node in the tree contain the key=>value pair and then build the tre
 
 Q: What is the complexity of the operations, put(), remove() and height()? Answer the previous for a guaranteed balanced and unbalanced tree.
 A: 
+```
 |Function|Best Case Complexity|Worst Case Complexity|
 |--------|----------|-------------------------------|
 |put()   |O(log(n)) |O(n)                           |
@@ -19,8 +20,8 @@ A:
 |--------|----------|-------------------------------|
 |height()|O(log(n)) |O(n)                           |
 |--------|----------|-------------------------------|
+<br />
 
-```
 ### Question 2
 ```
 Q: What is the complexity of verifying a word of length k is in the Trie? Is there a structure we've covered in class that can beat this? Justify your answer. Be sure to consider k in your answer.

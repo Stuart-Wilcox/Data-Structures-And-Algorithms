@@ -31,9 +31,7 @@ For this question I again chose the hybrid of edge list and adjacancy list. This
 
 ### Question 3 
 ```
-Q: Pricing Flights
-
-, what type of graph did you use? What alorithm did you use to find the cheapest itinerary?
+Q: Pricing Flights, what type of graph did you use? What alorithm did you use to find the cheapest itinerary?
 A: For this question I used a directed graph. This best models the directed nature of flights from airport to airport. For the alogrithm I used Dijkstra's algorithm. This was used on each node in the constructor to find all of the shortest paths from each node, and then the results were put into a list for fast lookup in FlightShopper#price(Airport to, Airport from).
 ```
 
@@ -43,5 +41,6 @@ A: For this question I used a directed graph. This best models the directed natu
 Q: Landing a Rover on Mars, what type of graph did you use? What algorithm di you use ot find the drop spot?
 A: For this question I used a directed graph. This was becuase my implementation of Dijkstra's algorithm from the previous question only used directed graphs. So every tile in the topography was connected in both directions (to and from).  
 As previously stated, I used Dijkstra's algorithm. I already had an implementation available from the previous question. A better choice likely would have been the Floyd-Warshall algorithm. 
+
 
 ```

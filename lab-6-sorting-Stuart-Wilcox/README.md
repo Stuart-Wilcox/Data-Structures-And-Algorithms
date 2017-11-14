@@ -14,7 +14,8 @@ See lab document: <https://uwoece-se2205b-2017.github.io/labs/06-sorting>
 Q: Using 'n' data, use a spreadsheet program to use regression to figure out the complexity. When you use a regression line, save the chart with the R^2 values included (do not show the equations). Explain what the R^2 values imply.
 A: The R^2 values are an indication of how closely the data follows the trendline, and in this case how accurately the collected data follows the time theoretical time complexity.
 
-```![/results/results.PNG](/results/results.PNG)
+```
+![/results/results.PNG](/results/results.PNG)
 
 <br />
 
