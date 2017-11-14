@@ -1,3 +1,3 @@
-# lab-02-oop
+# Lab 02 - Object Oriented Programming
 
-Description: https://uwoece-se2205b-2017.github.io/labs/02-object-oriented-programming
+See lab document: <https://uwoece-se2205b-2017.github.io/labs/02-object-oriented-programming>

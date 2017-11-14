@@ -1,10 +1,10 @@
-
 # Lab 01 - Lists and GUI Introduction
 
-See https://uwoece-se2205b-2017.github.io/labs/01-lists-gui-introduction
+See lab document: <https://uwoece-se2205b-2017.github.io/labs/01-lists-gui-introduction>
 
+## Questions
 
-##Question 1
+## Question 1
 ![Successful ArrayList testing](ArrayList.PNG)
 
 ![Successful LinkedList testing](LinkedList.PNG)
@@ -31,6 +31,7 @@ A:
     lastIndexOf
     
 2. The iteration on the LinkedList is likely slower then ArrayList, since the ArrayList's underlying array has memory stored contiguously, and accesses it in guaranteed O(1) time, while LinkedList stores memory randomly and is nearly guaranteed to take longer than array access.
+
 3. ArrayList:
     add()     O(n)
     remove()  O(n)
@@ -41,11 +42,12 @@ A:
     remove()  O(n)
     get()     O(n)
     set()     O(n)
+
 4. The benefits of the provided test were that all test cases were executed. It is important to be able to appropriately deal with invalid user input, and edge cases where there is exceptional behaviour.
 ```
 
-##Question 2
-![Login screen](Link to picture)
+## Question 2
+![Login screen](LoginScreen.PNG)
 
 Q:
 ```
@@ -55,7 +57,7 @@ Q:
 ```
 A:
 ```
-1. Answer1
-2. Answer2
-3. Answer3
+1. It is much easier to use to build a layout structure.
+2. This allows a graphical environment to build the view.
+3. Callbacks are functions that execute when a certain event occurs. Used by most GUI platforms.
 ```
